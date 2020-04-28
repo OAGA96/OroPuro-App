@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Oro Puro",
+    "slug": "appOroPuro-2",
+    "privacy": "unlisted",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/images/iconOroPuro.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oscargarcia.oropuro",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.oscargarcia.oropuro",
+      "versionCode": 1
+    },
+    "androidStatusBar" :{
+      "backgoundColor": "#BF0000"
+    }
+  }
+}

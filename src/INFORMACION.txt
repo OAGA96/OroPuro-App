@@ -1,0 +1,45 @@
+[
+    LLAVES QUE SE USAN EN ASYNCSTORAGE
+
+    userSignedIn    =>  Es donde se guarda la informacion del usuario al iniciar sesion.
+    ListRuta        =>  Es donde se guarda 
+    ListInv         =>  Es donde se guardan los productos del inventario.
+    ListPrecio      =>  Es donde se guardan todos los precios de los productos.
+    ListEntregas    =>  Es donse se guardan todas las ventas, visitas y cambios.
+    Entregas        =>  Es donde se van guardando las entregas.
+    Visitas         =>  Es donde se van guardando las visitas.
+    folio           =>  Es donde se van guardando el folio siguiente.
+]
+[
+    LIBRERIAS QUE SE UTILIZAN EN LA APLICACION
+    axios                   => Se utiliza para hacer peticiones a la API.
+    expo-barcode-scanner    =>  Se utiliza para leer los codigos QR.
+    lodash                  =>  Para manipular arrays, objetos, etc.
+    react-native-animatable =>  Libreria de animaciones.
+    react-native-responsive-screen  => Libreria para obtener el alto y ancho de la pantalla.
+    react-native-elements   => Libreria de componentes nativos.
+    react-navigation        => Libreria que permite la navegacion en pantallas.
+    react-native-dialog     => Libreria que permite Alerts con mas opciones de customizacion.
+]
+[
+    DESGLOSE DE CARPETAS
+    screens     =>  Aqui estan todas las pantallas de la aplicacion.
+        Camara.js
+        Clientes.js
+        Configuracion.js
+        Historial.js
+        Inicio.js
+        Inventario.js
+        Login.js
+        Venta.js
+    images      =>  Aqui se guardan todas las imagenes que se usan dentro de la aplicacion.
+        logoOroPuro.png
+    functions   =>  Aqui estan hay funciones que involucran la venta, calcular el total.
+        functions.js
+            TotalDeVenta
+            GuardarEntrega
+    componentes =>  Aqui hay componentes reutilizables.
+        HeaderOP.js
+    API         => Aqui se encuentra el componente a donde se hacen las peticiones http
+        OroPuro.js
+]
